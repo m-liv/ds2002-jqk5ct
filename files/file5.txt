@@ -1,0 +1,67 @@
+    1  clear
+    2  ls
+    3  pwd
+    4  ls -al
+    5  cd .
+    6  pwd
+    7  cd ..
+    8  pwd
+    9  cd ..
+   10  ls -al
+   11  cd ~
+   12  pwd
+   13  ls -al
+   14  ls
+   15  cd /workspaces/
+   16  cd ds2002-jqk5ct
+   17  clear
+   18  touch file1.txt
+   19  ls
+   20  ls -al
+   21  touch file2.txt
+   22  touch file3.txt
+   23  git log
+   24  clear
+   25  echo "taco cat"
+   26  echo "taco cat" > file1.txt
+   27  cat file1.txt
+   28  cat file1.txt > file2.txt
+   29  cat file1.txt > file3.txt
+   30  ls -al
+   31  echo "second line" >> file2.txt
+   32  cat file2.txt
+   33  clear
+   34  cat /dev/null > file3.txt
+   35  mkdir files
+   36  clear
+   37  ls -al
+   38  mv file1.txt files/
+   39  ls
+   40  ls -al files
+   41  touch file4.txt file5.txt
+   42  ls
+   43  cp file2.txt file6.txt
+   44  cp file3.txt file7.txt
+   45  mv file*.txt files/
+   46  ls -al
+   47  cd files
+   48  ls
+   49  rm file7.txt
+   50  ls
+   51  cd ..
+   52  ls -al
+   53  clear
+   54  top
+   55  ps
+   56  ps aux
+   57  cd files/
+   58  ps aux > file6.txt
+   59  ls -al
+   60  head file6.txt
+   61  tail file6.txt
+   62  clear
+   63  tail -n 2 file6.txt
+   64  clear
+   65  history
+   66  ls -al
+   67  history > file5.txt
